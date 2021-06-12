@@ -21,10 +21,12 @@ clowder:
         path: asap
       - tanersener/ffmpeg-kit
       - mcfiredrill/libgme
-      - GNOME/libgsf
+      - yshui/playgsf
       - digital-sound-antiques/libkss
       - OpenMPT/openmpt
-      - bnaegel/libtim
+      - name: timidity/git
+        source: sourceforge
+        path: timidity
       - vgmstream/vgmstream
       - libxmp/libxmp
       - CyberBotX/in_xsf

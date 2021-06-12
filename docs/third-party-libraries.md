@@ -2,7 +2,8 @@
 
 ## AHX
 
-[Hively Tracker](https://github.com/pete-gordon/hivelytracker)
+https://github.com/pete-gordon/hivelytracker
+https://github.com/mcfiredrill/libhvl
 
 ## Adplug
 
@@ -53,6 +54,7 @@ https://github.com/joshware/lazyusf2
 
 ## libgsf
 
+https://github.com/yshui/playgsf
 https://github.com/GNOME/libgsf
 https://gitlab.gnome.org/GNOME/libgsf
 
@@ -70,7 +72,9 @@ https://github.com/kode54/psflib
 
 ## libtim
 
+https://sourceforge.net/p/timidity/git/ci/master/tree/
 https://github.com/bnaegel/libtim
+https://github.com/sezero/libtimidity
 
 ## libvgmplay
 
@@ -109,6 +113,7 @@ https://github.com/gzaffin/pmdmini
 
 ## sc68
 
+https://sourceforge.net/p/sc68/code/HEAD/tree/
 https://github.com/wothke/sc68-2.2.1
 
 ## sid
