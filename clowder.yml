@@ -15,65 +15,97 @@ clowder:
   third-party:
     path: external
     projects:
-      - pete-gordon/hivelytracker
-      - adplug/adplug
-      - Thealexbarney/LibAtrac9
-      - arnaud-carre/StSound
-      - name: asap/code
-        source: sourceforge
-        path: asap
+      - name: hivelytracker
+        upstream: pete-gordon/hivelytracker
+      - name: chiptunes-swift/adplug
+        upstream: adplug/adplug
+      - name: chiptunes-swift/LibAtrac9
+        upstream: Thealexbarney/LibAtrac9
+      - name: chiptunes-swift/StSound
+        upstream: arnaud-carre/StSound
       - tanersener/ffmpeg-kit
-      - mcfiredrill/libgme
-      - yshui/playgsf
-      - digital-sound-antiques/libkss
-      - OpenMPT/openmpt
-      - name: timidity/git
-        source: sourceforge
-        path: timidity
-      - vgmstream/vgmstream
-      - libxmp/libxmp
-      - CyberBotX/in_xsf
-      - TooTallNate/node-lame
-      - libsidplayfp/sidplayfp
-      - jgilje/v2m-player
-      - vgmrips/vgmplay
-      - chiptunes-swift/freeverb
+      - name: chiptunes-swift/libgme
+        upstream: mcfiredrill/libgme
+      - name: chiptunes-swift/playgsf
+        upstream: yshui/playgsf
+      - name: chiptunes-swift/libkss
+        upstream: digital-sound-antiques/libkss
+      - name: chiptunes-swift/openmpt
+        upstream: OpenMPT/openmpt
+      - name: chiptunes-swift/vgmstream
+        upstream: vgmstream/vgmstream
+      - name: chiptunes-swift/libxmp
+        upstream: libxmp/libxmp
+      - name: chiptunes-swift/in_xsf
+        upstream: CyberBotX/in_xsf
+      - name: chiptunes-swift/node-lame
+        upstream: TooTallNate/node-lame
+      - name: chiptunes-swift/sidplayfp
+        upstream: libsidplayfp/sidplayfp
+      - name: chiptunes-swift/v2m-player
+        upstream: jgilje/v2m-player
+      - name: chiptunes-swift/vgmplay
+        upstream: vgmrips/vgmplay
+      - name: chiptunes-swift/freeverb
+        upstream: chiptunes-swift/freeverb
+
+  sourceforge:
+    path: external
+    projects:
+      - name: chiptunes-swift/timidity
+        upstream:
+          name: timidity/git
+          source: sourceforge
+      - name: chiptunes-swift/asap
+        upstream:
+          name: asap/code
+          source: sourceforge
 
   snes9x:
     path: external
     projects:
-      - loveemu/snsf9x
-      - snes9xgit/snes9x
+      - name: chiptunes-swift/snsf9x
+        upstream: loveemu/snsf9x
+      - name: chiptunes-swift/snes9x
+        upstream: snes9xgit/snes9x
 
   mistydemeo:
     path: external
     projects:
-      - name: mistydemeo/pmdmini
+      - name: chiptunes-swift/pmdmini
         upstream: gzaffin/pmdmini
-      - mistydemeo/mdxmini
+      # - mistydemeo/pmdmini
+      - name: chiptunes-swift/mdxmini
+        upstream: mistydemeo/mdxmini
 
   wothke:
     path: external
-    defaults:
-      source: bitbucket
     projects:
-      - name: wothke/webpsx
+      - name: chiptunes-swift/webpsx
+        upstream:
+          name: wothke/webpsx
+          source: bitbucket
       # - name: wothke/uade-2.13
-      - name: wothke/sc68-2.2.1
+      # - name: wothke/sc68-2.2.1
 
   uade:
     path: external
-    defaults:
-      source: gitlab
     projects:
+      - name: chiptunes-swift/uade
+        upstream:
+          name: uade-music-player/uade
+          source: gitlab
       - heikkiorsila/bencode-tools
-      - uade-music-player/uade
 
   kode54:
     path: external
     projects:
-      - kode54/Highly_Theoretical
-      - kode54/psflib
-      - name: joshware/lazyusf2
-        upstream: kode54/lazyusf
-      - kode54/Highly_Quixotic
+      - name: chiptunes-swift/Highly_Theoretical
+        upstream: kode54/Highly_Theoretical
+      - name: chiptunes-swift/psflib
+        upstream: kode54/psflib
+      - name: chiptunes-swift/lazyusf2
+        upstream: joshware/lazyusf2
+      # - kode54/lazyusf
+      - name: chiptunes-swift/Highly_Quixotic
+        upstream: kode54/Highly_Quixotic
