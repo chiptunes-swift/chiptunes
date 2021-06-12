@@ -12,10 +12,11 @@ sources:
     protocol: https
 
 clowder:
-  third-party:
+  general:
     path: external
     projects:
-      - name: hivelytracker
+      - tanersener/ffmpeg-kit
+      - name: chiptunes-swift/hivelytracker
         upstream: pete-gordon/hivelytracker
       - name: chiptunes-swift/adplug
         upstream: adplug/adplug
@@ -23,7 +24,6 @@ clowder:
         upstream: Thealexbarney/LibAtrac9
       - name: chiptunes-swift/StSound
         upstream: arnaud-carre/StSound
-      - tanersener/ffmpeg-kit
       - name: chiptunes-swift/libgme
         upstream: mcfiredrill/libgme
       - name: chiptunes-swift/playgsf
@@ -49,18 +49,6 @@ clowder:
       - name: chiptunes-swift/freeverb
         upstream: chiptunes-swift/freeverb
 
-  sourceforge:
-    path: external
-    projects:
-      - name: chiptunes-swift/timidity
-        upstream:
-          name: timidity/git
-          source: sourceforge
-      - name: chiptunes-swift/asap
-        upstream:
-          name: asap/code
-          source: sourceforge
-
   snes9x:
     path: external
     projects:
@@ -78,25 +66,6 @@ clowder:
       - name: chiptunes-swift/mdxmini
         upstream: mistydemeo/mdxmini
 
-  wothke:
-    path: external
-    projects:
-      - name: chiptunes-swift/webpsx
-        upstream:
-          name: wothke/webpsx
-          source: bitbucket
-      # - name: wothke/uade-2.13
-      # - name: wothke/sc68-2.2.1
-
-  uade:
-    path: external
-    projects:
-      - name: chiptunes-swift/uade
-        upstream:
-          name: uade-music-player/uade
-          source: gitlab
-      - heikkiorsila/bencode-tools
-
   kode54:
     path: external
     projects:
@@ -109,3 +78,49 @@ clowder:
       # - kode54/lazyusf
       - name: chiptunes-swift/Highly_Quixotic
         upstream: kode54/Highly_Quixotic
+
+  temp:
+    path: external
+    projects:
+      - name: timidity/git
+        source: sourceforge
+      - name: asap/code
+        source: sourceforge
+      - name: wothke/webpsx
+        source: bitbucket
+      - name: uade-music-player/uade
+        source: gitlab
+      - name: heikkiorsila/bencode-tools
+        source: gitlab
+
+  # sourceforge:
+  #   path: external
+  #   projects:
+  #     - name: chiptunes-swift/timidity
+  #       upstream:
+  #         name: timidity/git
+  #         source: sourceforge
+  #     - name: chiptunes-swift/asap
+  #       upstream:
+  #         name: asap/code
+  #         source: sourceforge
+
+  # bitbucket:
+  #   path: external
+  #   projects:
+  #     - name: chiptunes-swift/webpsx
+  #       upstream:
+  #         name: wothke/webpsx
+  #         source: bitbucket
+  #     # - name: wothke/uade-2.13
+  #     # - name: wothke/sc68-2.2.1
+
+  # gitlab:
+  #   path: external
+  #   projects:
+  #     - name: chiptunes-swift/uade
+  #       upstream:
+  #         name: uade-music-player/uade
+  #         source: gitlab
+  #     - name: heikkiorsila/bencode-tools
+  #       source: gitlab
