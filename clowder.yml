@@ -35,10 +35,15 @@ clowder:
       - CyberBotX/in_xsf
       - TooTallNate/node-lame
       - libsidplayfp/sidplayfp
-      - loveemu/snsf9x
       - jgilje/v2m-player
       - vgmrips/vgmplay
       - JrGoodle/Freeverb
+
+  snes9x:
+    path: external
+    projects:
+      - loveemu/snsf9x
+      - snes9xgit/snes9x
 
   mistydemeo:
     path: external

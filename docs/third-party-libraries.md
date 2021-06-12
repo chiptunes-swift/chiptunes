@@ -122,7 +122,11 @@ https://github.com/libsidplayfp/sidplayfp
 
 ## snsf
 
+https://github.com/snes9xgit/snes9x
 https://github.com/loveemu/snsf9x
+https://www.zophar.net/utilities/snsf/snsf-player.html
+https://www.zophar.net/utilities/snsf/snsf9x.html
+http://snsf.caitsith2.net
 
 ## uade-2.13
 
