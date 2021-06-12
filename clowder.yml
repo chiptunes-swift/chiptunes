@@ -37,7 +37,7 @@ clowder:
       - libsidplayfp/sidplayfp
       - jgilje/v2m-player
       - vgmrips/vgmplay
-      - JrGoodle/Freeverb
+      - chiptunes-swift/freeverb
 
   snes9x:
     path: external
