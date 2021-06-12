@@ -1,0 +1,39 @@
+name: chiptunes-third-party-dependencies
+
+sources:
+  sourceforge:
+    url: git.code.sf.net/p
+    protocol: https
+
+clowder:
+  third-party:
+    path: external
+    projects:
+      - pete-gordon/hivelytracker
+      - adplug/adplug
+      - kode54/Highly_Quixotic
+      - Thealexbarney/LibAtrac9
+      - arnaud-carre/StSound
+      - name: asap/code
+        source: sourceforge
+        path: asap-code
+      - tanersener/ffmpeg-kit
+      - mcfiredrill/libgme
+      - kode54/lazyusf
+      - GNOME/libgsf
+      - digital-sound-antiques/libkss
+      - OpenMPT/openmpt
+      - kode54/psflib
+      - bnaegel/libtim
+      - vgmstream/vgmstream
+      - libxmp/libxmp
+      - CyberBotX/in_xsf
+      - mistydemeo/mdxmini
+      - TooTallNate/node-lame
+      - name: mistydemeo/pmdmini
+        upstream: gzaffin/pmdmini
+      - wothke/sc68-2.2.1
+      - libsidplayfp/sidplayfp
+      - loveemu/snsf9x
+      - wothke/uade-2.13
+      - jgilje/v2m-player
