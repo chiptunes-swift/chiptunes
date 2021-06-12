@@ -7,6 +7,9 @@ sources:
   bitbucket:
     url: bitbucket.org
     protocol: https
+  gitlab:
+    url: gitlab.com
+    protocol: https
 
 clowder:
   third-party:
@@ -50,8 +53,16 @@ clowder:
       source: bitbucket
     projects:
       - name: wothke/webpsx
-      - name: wothke/uade-2.13
+      # - name: wothke/uade-2.13
       - name: wothke/sc68-2.2.1
+
+  uade:
+    path: external
+    defaults:
+      source: gitlab
+    projects:
+      - heikkiorsila/bencode-tools
+      - uade-music-player/uade
 
   kode54:
     path: external

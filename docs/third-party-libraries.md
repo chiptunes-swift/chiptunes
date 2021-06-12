@@ -127,6 +127,7 @@ https://github.com/loveemu/snsf9x
 ## uade-2.13
 
 https://github.com/wothke/uade-2.13
+http://zakalwe.fi/uade/download.html
 
 ## v2mplayer
 
