@@ -31,6 +31,8 @@ https://github.com/tanersener/ffmpeg-kit
 ## freeverb
 
 https://ccrma.stanford.edu/~jos/pasp/Freeverb.html
+http://blog.bjornroche.com/2012/06/freeverb-original-public-domain-code-by.html
+https://github.com/JrGoodle/Freeverb
 
 ## highlyexperimental
 

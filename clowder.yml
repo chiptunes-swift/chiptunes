@@ -33,6 +33,7 @@ clowder:
       - loveemu/snsf9x
       - jgilje/v2m-player
       - vgmrips/vgmplay
+      - JrGoodle/Freeverb
 
   mistydemeo:
     path: external
