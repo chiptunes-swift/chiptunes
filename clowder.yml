@@ -79,48 +79,34 @@ clowder:
       - name: chiptunes-swift/Highly_Quixotic
         upstream: kode54/Highly_Quixotic
 
-  temp:
+  sourceforge:
     path: external
     projects:
-      - name: timidity/git
-        source: sourceforge
-      - name: asap/code
-        source: sourceforge
-      - name: wothke/webpsx
-        source: bitbucket
-      - name: uade-music-player/uade
-        source: gitlab
+      - name: chiptunes-swift/timidity
+        upstream:
+          name: timidity/git
+          source: sourceforge
+      - name: chiptunes-swift/asap
+        upstream:
+          name: asap/code
+          source: sourceforge
+
+  bitbucket:
+    path: external
+    projects:
+      - name: chiptunes-swift/webpsx
+        upstream:
+          name: wothke/webpsx
+          source: bitbucket
+      # - name: wothke/uade-2.13
+      # - name: wothke/sc68-2.2.1
+
+  gitlab:
+    path: external
+    projects:
+      - name: chiptunes-swift/uade
+        upstream:
+          name: uade-music-player/uade
+          source: gitlab
       - name: heikkiorsila/bencode-tools
         source: gitlab
-
-  # sourceforge:
-  #   path: external
-  #   projects:
-  #     - name: chiptunes-swift/timidity
-  #       upstream:
-  #         name: timidity/git
-  #         source: sourceforge
-  #     - name: chiptunes-swift/asap
-  #       upstream:
-  #         name: asap/code
-  #         source: sourceforge
-
-  # bitbucket:
-  #   path: external
-  #   projects:
-  #     - name: chiptunes-swift/webpsx
-  #       upstream:
-  #         name: wothke/webpsx
-  #         source: bitbucket
-  #     # - name: wothke/uade-2.13
-  #     # - name: wothke/sc68-2.2.1
-
-  # gitlab:
-  #   path: external
-  #   projects:
-  #     - name: chiptunes-swift/uade
-  #       upstream:
-  #         name: uade-music-player/uade
-  #         source: gitlab
-  #     - name: heikkiorsila/bencode-tools
-  #       source: gitlab
