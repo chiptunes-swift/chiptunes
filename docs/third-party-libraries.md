@@ -34,7 +34,11 @@ https://ccrma.stanford.edu/~jos/pasp/Freeverb.html
 
 ## highlyexperimental
 
+https://github.com/wothke/webpsx
+
 ## highlytheoretical
+
+https://github.com/kode54/Highly_Theoretical
 
 ## libGME
 
@@ -43,6 +47,7 @@ https://github.com/mcfiredrill/libgme
 ## libLazyusf
 
 https://github.com/kode54/lazyusf
+https://github.com/joshware/lazyusf2
 
 ## libgsf
 
