@@ -17,3 +17,9 @@ https://swift.org/package-manager/
 https://developer.apple.com/documentation/swift_packages
 
 https://github.com/kobejean/opencv-swift
+
+https://betterprogramming.pub/how-to-create-a-swift-package-from-a-c-library-fb5cd606220f
+
+---
+
+https://stackoverflow.com/questions/60027918/how-to-wrap-cassandra-c-driver-in-a-swift-module
